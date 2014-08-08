@@ -1,0 +1,15 @@
+Ferrari\Cache\Cache
+ [x] Add item to the cache will store data and return true
+ [x] We can retrive an item after adding it
+ [x] Return false if the cache id does not exists
+ [x] Access the cache as array when item exists
+ [x] Access the cache as array when item does not exists
+ [x] Check if the cache contains a value
+ [x] Check if the cache dont contain a value
+ [x] Delete item from the cache
+ [x] Delete item from the cache as array
+ [x] Get an item from cache or create with a callback
+ [x] Get an unexistent item from cache without callback
+ [x] Get an existent item from cache with callback
+ [x] getStats must return an array
+

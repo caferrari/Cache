@@ -1,0 +1,4 @@
+vendor
+doc/coverage
+composer.lock
+build
