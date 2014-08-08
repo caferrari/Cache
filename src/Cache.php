@@ -39,14 +39,14 @@ class Cache implements \ArrayAccess, CacheInterface
         return $this->driver->getStats();
     }
 
-    public function get($id, callable $callback = null)
+    public function get($id, $callback = null)
     {
 
         if ($this->contains($id)) {
             return $this->driver->fetch($id);
         }
 
-        if (null === $callback) {
+        if (!is_callable($callback)) {
             return false;
         }
 
