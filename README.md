@@ -1,5 +1,6 @@
 # caferrari\Cache
 [![Build Status](https://secure.travis-ci.org/caferrari/Cache.png)](http://travis-ci.org/caferrari/Cache)
+[![Coverage Status](https://coveralls.io/repos/caferrari/Cache/badge.png?branch=master)](https://coveralls.io/r/caferrari/Cache?branch=master)
 [![Total Downloads](https://poser.pugx.org/ferrari/cache/downloads.png)](https://packagist.org/packages/ferrari/cache)
 [![License](https://poser.pugx.org/ferrari/cache/license.png)](https://packagist.org/packages/ferrari/cache)
 [![Latest Stable Version](https://poser.pugx.org/ferrari/cache/v/stable.png)](https://packagist.org/packages/ferrari/cache)
