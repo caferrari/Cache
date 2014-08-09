@@ -19,9 +19,9 @@ composer require ferrari/cache
 
 ```php
 
-$driver = \Doctrine\Common\Cache\ArrayCache;
+$driver = new \Doctrine\Common\Cache\ArrayCache;
 
-$cache = new Ferrari\Cache($driver);
+$cache = new \Ferrari\Cache($driver);
 
 $cache->save('hello', 'world');
 
